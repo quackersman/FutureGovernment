@@ -1,0 +1,37 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
+		date = 2109.1.1
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+	
+		FRA = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas={
+				Safe_Nation
+			}
+			focuses = {
+				FRA_initiate_government_reform
+				FRA_support_status_quo
+				FRA_revise_versailles
+			}
+		
+		GOV = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas = {
+				Safe_Nation
+			}
+			focuses = {
+				
+				
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
